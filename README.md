@@ -1,2 +1,3 @@
-# MS-Code
-Repositório criado para anotação do curso ms-code 
+# MS Code 2025-Git
+
+Olá, meu nome é João Pedro Pardinho
