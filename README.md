@@ -1,5 +1,37 @@
 # MS Code 2025-Git
 
+---
+
 ## Curso destinado para o estudo de desenvolvimento web 
 
-Olá, meu nome é João Pedro Pardinho
+---
+
+### Anotações da aula de git (Comandos):
+
+- git status (mostra os arquivos alterados)
+- git add README.md (adiciona na “fila de arquivos pra fazer commit”)
+- git commit -m “mensagem para o meu eu do futuro”
+- git push origin main (envia o código atualizado para o repositório)
+- git branch nome-da-branch (Cria uma nova branch)
+- git checkout -b nome-da-branch (Troca de branch)
+
+Exemplos: 
+
+Clonar um repositório?
+git clone git@github.com:meu-usuario/repositorio.git
+
+Ver quais foram os arquivos alterados
+git status
+
+Adicionar todos os arquivos alterados ao staging:
+git add . ou git add nome-arquivo
+
+Fazer commit:
+git commit -m “mensagem”
+
+Baixar últimas atualizações do repositório:
+git pull origin nome-branch
+
+Enviar commits para o repositório:
+git push origin nome-branch
+
