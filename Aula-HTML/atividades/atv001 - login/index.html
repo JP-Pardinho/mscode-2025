@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=], initial-scale=1.0">
+    <title>Tela Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <section id="login">
+            <div id="Formulario">
+            <form action="login.php" method="post" autocapitalize="on">
+                <h1>Acesse sua conta</h1>
+                <p>Olá aluno(a), seja bem-vindo(a) de volta! Para acessar a sua conta, utilize as opções de login ou, se for novo(a), registre-se na plataforma.</p>
+                <div class="campo">
+                    <label for="ilogin">Login:</label>
+                    <input type="email" name="login" id="ilogin" placeholder="Email" autocomplete="email" required maxlength="50">
+                </div>
+                <br>
+                <div class="campo">
+                    <label for="isenha">Senha:</label>
+                    <input type="password" name="senha" id="isenha" placeholder="Senha" required>
+                </div>
+                <br>
+                <div>
+                    <input type="checkbox" name="termos" id="itermos">
+                    <label for="itermos">Aceite os termos</label>
+                </div>
+                <br>
+                <input type="submit" value="Entrar">
+                <a href="esqueci.html" class="botao">
+                    Esqueci a senha
+                </a>
+            </form>                
+            </div>
+        </section>
+    </main>
+</body>
+</html>

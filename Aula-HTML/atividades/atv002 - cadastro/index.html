@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+<body>
+    <main>
+        <section>
+            <div id="formulario">
+                <form action="login.php" method="post" autocapitalize="on">
+                    <h1>Informações pessoais</h1>
+                    <div class="campo">
+                        <label for="inome">Nome completo: </label>
+                        <input type="text" name="nome" id="inome" placeholder="Insira seu nome" required>
+                    </div>
+                    <br>
+
+                    <div class="campo">
+                        <label for="iemail">Email: </label>
+                        <input type="email" name="email" id="iemail" placeholder="Email" required>
+                    </div>
+                    <br>
+
+                    <div class="campo">
+                        <label for="idata">Data de nascimento: </label>
+                        <input type="date" name="data" id="idata" required>
+                    </div>
+                    <br>
+
+                    <div class="campo">
+                        <label for="iestados">Escolha seu estado: </label>
+                        <select name="estados" id="iestados">
+                            <option value=""></option>
+                            <option value="ES">ESPIRITO SANTO</option>
+                        </select>
+                    </div>
+                    <br>
+                    
+                    <div class="campo">
+                        <label for="icidades">Escolha sua cidade: </label>
+                        <select name="cidades" id="icidades">
+                            <option value=""></option>
+                            <option value="cidade">AFONSO CLÁUDIO</option>
+                            <option value="cidade">ÁGUA DOCE DO NORTE</option>
+                            <option value="cidade">ÁGUIA BRANCA</option>
+                            <option value="cidade">ALEGRE</option>
+                            <option value="cidade">ALFREDO CHAVES</option>
+                            <option value="cidade">ALTO RIO NOVO</option>
+                            <option value="cidade">ANCHIETA</option>
+                            <option value="cidade">APIACÁ</option>
+                            <option value="cidade">ARACRUZ</option>
+                            <option value="cidade">ATILIO VIVACQUA</option>
+                            <option value="cidade">BAIXO GUANDU</option>
+                            <option value="cidade">BARRA DE SÃO FRANC</option>ISCO
+                            <option value="cidade">BOA ESPERANÇA</option>
+                            <option value="cidade">BOM JESUS DO NORTE</option>
+                            <option value="cidade">BREJETUBA</option>
+                            <option value="cidade">CACHOEIRO DE ITAPE</option>MIRIM
+                            <option value="cidade">CARIACICA</option>
+                            <option value="cidade">CASTELO</option>
+                            <option value="cidade">COLATINA</option>
+                            <option value="cidade">CONCEIÇÃO DA BARRA</option>
+                            <option value="cidade">CONCEIÇÃO DO CASTE</option>LO
+                            <option value="cidade">DIVINO DE SÃO LOUR</option>ENÇO
+                            <option value="cidade">DOMINGOS MARTINS</option>
+                            <option value="cidade">DORES DO RIO PRETO</option>
+                            <option value="cidade">ECOPORANGA</option>
+                            <option value="cidade">FUNDÃO</option>
+                            <option value="cidade">GOVERNADOR LINDENB</option>ERG
+                            <option value="cidade">GUAÇUÍ</option>
+                            <option value="cidade">GUARAPARI</option>
+                            <option value="cidade">IBATIBA</option>
+                            <option value="cidade">IBIRAÇU</option>
+                            <option value="cidade">IBITIRAMA</option>
+                            <option value="cidade">ICONHA</option>
+                            <option value="cidade">IRUPI</option>
+                            <option value="cidade">ITAGUAÇU</option>
+                            <option value="cidade">ITAPEMIRIM</option>
+                            <option value="cidade">ITARANA</option>
+                            <option value="cidade">IÚNA</option>
+                            <option value="cidade">JAGUARÉ</option>
+                            <option value="cidade">JERÔNIMO MONTEIRO</option>
+                            <option value="cidade">JOÃO NEIVA</option>
+                            <option value="cidade">LARANJA DA TERRA</option>
+                            <option value="cidade">LINHARES</option>
+                            <option value="cidade">MANTENÓPOLIS</option>
+                            <option value="cidade">MARATAÍZES</option>
+                            <option value="cidade">MARECHAL FLORIANO</option>
+                            <option value="cidade">MARILÂNDIA</option>
+                            <option value="cidade">MIMOSO DO SUL</option>
+                            <option value="cidade">MONTANHA</option>
+                            <option value="cidade">MUCURICI</option>
+                            <option value="cidade">MUNIZ FREIRE</option>
+                            <option value="cidade">MUQUI</option>
+                            <option value="cidade">NOVA VENÉCIA</option>
+                            <option value="cidade">PANCAS</option>
+                            <option value="cidade">PEDRO CANÁRIO</option>
+                            <option value="cidade">PINHEIROS</option>
+                            <option value="cidade">PIÚMA</option>
+                            <option value="cidade">PONTO BELO</option>
+                            <option value="cidade">PRESIDENTE KENNEDY</option>
+                            <option value="cidade">RIO BANANAL</option>
+                            <option value="cidade">RIO NOVO DO SUL</option>
+                            <option value="cidade">SANTA LEOPOLDINA</option>
+                            <option value="cidade">SANTA MARIA DE JET</option>IBÁ
+                            <option value="cidade">SANTA TERESA</option>
+                            <option value="cidade">SÃO DOMINGOS DO NO</option>RTE
+                            <option value="cidade">SÃO GABRIEL DA PAL</option>HA
+                            <option value="cidade">SÃO JOSÉ DO CALÇAD</option>O
+                            <option value="cidade">SÃO MATEUS</option>
+                            <option value="cidade">SÃO ROQUE DO CANAÃ</option>
+                            <option value="cidade">SERRA</option>
+                            <option value="cidade">SOORETAMA</option>
+                            <option value="cidade">VARGEM ALTA</option>
+                            <option value="cidade">VENDA NOVA DO IMIG</option>RANTE
+                            <option value="cidade">VIANA</option>
+                            <option value="cidade">VILA PAVÃO</option>
+                            <option value="cidade">VILA VALÉRIO</option>
+                            <option value="cidade">VILA VELHA</option>
+                            <option value="cidade">VITÓRIA</option>
+                        </select>
+                    </div>
+                    <br>
+
+                    <div class="campo">
+                        <label for="isenha">Senha: </label>
+                        <input type="password" name="senha" id="isenha" placeholder="Senha">
+                    </div>
+                    <br>
+
+                    <div class="campo">
+                        <input type="checkbox" name="termos" id="itermos">
+                        <label for="itermos">Aceite os termos</label>
+                    </div>
+                    <br>
+
+                    <div>
+                        <input type="submit" value="Confirmar">
+                        <input type="reset" value="Limpar">
+                    </div>
+
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
