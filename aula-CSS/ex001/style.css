@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+.cartao {
+    background-color: lightcyan;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    line-height: 1.5;
+
+    width: 300px;
+    height: auto;
+    margin: 150px auto;
+    padding: 20px;
+    border-radius: 10px;
+    border: 3px solid black;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.178);
+}
+
+button{
+    cursor: pointer;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+}
+
+button:hover {
+    color: white;
+    background-color: rgb(27, 27, 27);
+    text-decoration: underline;
+}
