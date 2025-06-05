@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lojinha do Pardin</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -13,13 +15,12 @@
         <nav>
             <ul>
                 <li><a href="#inicio">Início</a></li>
-                <li><a href="#categorias">Todos as categorias</a></li>
+                <li><a href="#categorias">Categorias</a></li>
+                <li><a href="#produtos">Produtos</a></li>
                 <li><a href="#contato">Contato</a></li>
-                <li><a href="#login">Login</a></li>
             </ul>
         </nav>
         <form action="">
-            <label for="ibusca">Buscar:</label>
             <input type="search" name="busca" id="ibusca" placeholder="O que está buscando?">
             <button type="submit">Enviar</button>
         </form>
@@ -28,9 +29,10 @@
 
     <main>
         <section id="inicio">
-            <h1>Bem-Vindo a nossa loja!</h1>
-            <br>    
-            <img src="https://placehold.co/600x300" alt="Logo: Loja do Pardin"> 
+            <h1>Seja bem-vindo, sua compra é a nossa alegria!</h1>
+            <a href="https://api.whatsapp.com/send?phone=55DDD...&text=Olá!%0AQuero%20falar%20com%20um%20vendedor!" target="_blank">
+                <img src="img/banner.png" alt="Logo: Loja do Pardin">
+            </a> 
         </section>
 
         <section id="categorias">
@@ -57,17 +59,17 @@
                 <tr>
                     <td>Guarda Roupa</td>
                     <td>R$999,90</td>
-                    <td><img src="https://placehold.co/100x100" alt="Imagem: Produto"></td>
+                    <td><img src="https://mediacdn.simonetti.com.br/media/catalog/product/cache/f777e0fcb693fc2eda14df7367849c5a/8/4/84420_1.jpg" alt="Imagem: Guarda-Roupa"></td>
                 </tr>
                 <tr>
                     <td>Sófa</td>
-                    <td>R$999,90</td>
-                    <td><img src="https://placehold.co/100x100" alt="Imagem: Produto"></td>
+                    <td>R$1999,00</td>
+                    <td><img src="https://mediacdn.simonetti.com.br/media/catalog/product/cache/f777e0fcb693fc2eda14df7367849c5a/8/7/87636.jpg" alt="Imagem: Sofá"></td>
                 </tr>
                 <tr>
                     <td>Geladeira</td>
-                    <td>R$999,90</td>
-                    <td><img src="https://placehold.co/100x100" alt="Imagem: Produto"></td>
+                    <td>R$3.899,00</td>
+                    <td><img src="https://mediacdn.simonetti.com.br/media/catalog/product/cache/f777e0fcb693fc2eda14df7367849c5a/8/8/88289_1.jpg" alt="Imagem: Geladeira"></td>
                 </tr>
             </table>
         </section>
@@ -76,15 +78,19 @@
             <h1>Fale Conosco</h1>
             <form action="login.php">
                 <label for="inome">Nome:</label>
+                <br>
                 <input type="text" name="nome" id="inome" required>
                 <br>
                 <label for="iemail">Email:</label>
+                <br>
                 <input type="email" name="email" id="iemail" required>
                 <br>
                 <label for="iassunto">Assunto:</label>
+                <br>
                 <input type="text" name="assunto" id="iassunto" required>
                 <br>
                 <label for="imenssagem">Mensagem:</label>
+                <br>
                 <textarea name="mensagem" id="imensagem" rows="5" cols="50"></textarea>
                 <br>
                 <button type="submit">Enviar</button>   
