@@ -6,6 +6,9 @@
 
 ---
 
+### Projetos legais do curso: 
+- Atividade 004: [Loja com CSS](https://jp-pardinho.github.io/mscode-2025/atividades/atv004%20-%20Loja%20com%20CSS/)
+
 ### Anotações da aula de git (Comandos):
 
 - git status (mostra os arquivos alterados)
