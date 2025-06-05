@@ -67,6 +67,10 @@ main section {
     margin-bottom: 50px;
 }
 
+main h1, h2 {
+    margin-bottom: 25px;
+}
+
 #inicio {
     display: flex;
     justify-content: center;
@@ -74,10 +78,6 @@ main section {
     align-items: center;
 }
 
-#inicio h1 {
-    font-size: 2em;
-    margin-bottom: 25px;
-}
 
 main section img {
     margin: auto;
@@ -108,7 +108,6 @@ main section img {
 
 table {
     width: 100%;
-    margin-top: 20px;
     box-sizing: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
@@ -130,10 +129,6 @@ tr:hover {
 #produtos img {
     max-width: 150px;
     max-height: 150px;
-}
-
-#contato h1{
-    padding: 20px 0;
 }
 
 #contato input, #contato textarea {
