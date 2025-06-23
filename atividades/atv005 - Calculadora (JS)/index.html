@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="calculadora">
+        <h2>calculadora</h2>
+        <div id="res"></div>
+        <table>
+            <tr>
+                <th ><button id="cinza" onclick="limpar()">C</button></th>
+                <th><button id="cinza" onclick="backCE()">CE</button></th>
+                <th><button id="cinza" onclick="inserirSinal('%')">%</button></th>
+                <th><button id="cinza-claro" onclick="inserirSinal('/')">/</button></th>
+            </tr>
+            <tr>
+                <td><button id="cinza-escuro" onclick="inserirNumero('7')">7</button></td>
+                <td><button id="cinza-escuro" onclick="inserirNumero('8')">8</button></td> 
+                <td><button id="cinza-escuro" onclick="inserirNumero('9')">9</button></td>
+                <td><button id="cinza-claro" onclick="inserirSinal('*')">x</button></td>
+            </tr>
+            <tr>
+                <td><button id="cinza-escuro" onclick="inserirNumero('4')">4</button></td>
+                <td><button id="cinza-escuro" onclick="inserirNumero('5')">5</button></td>
+                <td><button id="cinza-escuro" onclick="inserirNumero('6')">6</button></td>
+                <td><button id="cinza-claro" onclick="inserirSinal('-')">-</button></td>
+            </tr>
+            <tr>
+                <td><button id="cinza-escuro" onclick="inserirNumero('1')">1</button></td>
+                <td><button id="cinza-escuro" onclick="inserirNumero('2')">2</button></td>
+                <td><button id="cinza-escuro" onclick="inserirNumero('3')">3</button></td>
+                <td><button id="cinza-claro" onclick="inserirSinal('+')">+</button></td>
+            </tr>
+            <tr>
+                <td><button id="cinza-escuro" onclick="inserirSinal('')">+/-</button></td>
+                <td><button id="cinza-escuro" onclick="inserirNumero('0')">0</button></td>
+                <td><button id="cinza-escuro" onclick="inserirSinal('.')">.</button></td>
+                <td><button id="verde" onclick="calcular()">=</button></td>
+            </tr>
+        </table>
+    </section>
+    <footer>
+        <p></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
