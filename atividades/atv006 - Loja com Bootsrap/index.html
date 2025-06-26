@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja com bootsrap</title>
+</head>
+
+<body>
+    <!DOCTYPE html>
+    <html lang="pt-BR">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lojinha do Pardin</title>
+        <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    </head>
+
+    <body>
+        <header>
+            <!-- NAVBAR -->
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">Loja do Pardin</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#inicio">Incio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#categorias">Categorias</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Produtos
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Móveis</a></li>
+                                    <li><a class="dropdown-item" href="#">Colchões</a></li>
+                                    <li><a class="dropdown-item" href="#">Eletrodomésticos</a></li>
+                                    <li><a class="dropdown-item" href="#">Telefonia</a></li>
+                                    <li><a class="dropdown-item" href="#">Portáteis</a></li>
+                                    <li><a class="dropdown-item" href="#">Climatização</a></li>
+                                    <li><a class="dropdown-item" href="#">Esporte e Lazer</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Todos os produtos</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contato">Contato</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+
+        <main class="primary-color">
+            <section id="inicio">
+                <!-- <h1>Seja bem-vindo, sua compra é a nossa alegria!</h1>  ENCONTRAR ALGO PARA SUBSTITUIR-->
+
+                <!-- CARROSSEL  -->
+                <div id="carouselExample" class="carousel slide">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/banner.png" class="d-block w-100" alt="Banner-Whatsapp">
+                        </div>
+                        <div class="carousel-item">
+                            <!-- MUDAR IMG DEPOIS -->
+                            <img src="https://placehold.co/1300x350" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <!-- MUDAR IMG DEPOIS -->
+                            <img src="https://placehold.co/1300x350" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </section>
+
+            <!-- Lista de categorias -->
+            <section id="categorias" class="row gap-2 mt-5 justify-content-md-center">
+                <!-- MOVÉIS -->
+                <div class="card" style="width: 18rem;">
+                    <img src="img/moveis.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title ">Móveis</h5>
+                    </div>
+                </div>
+
+                <!-- COLCHOES -->
+                <div class="card" style="width: 18rem;">
+                    <img src="img/climatizacao.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Colchões</h5>
+                    </div>
+                </div>
+
+                <!-- ELETRODOMESTICOS -->
+                <div class="card" style="width: 18rem;">
+                    <img src="img/eletrodomesticos.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Eletrodomésticos</h5>
+                    </div>
+                </div>
+
+                <!-- TELEFONIA -->
+                <div class="card" style="width: 18rem;">
+                    <img src="img/telefonia.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Telefonia</h5>
+                    </div>
+                </div>
+
+                <!-- PORTATEIS -->
+                <div class="card" style="width: 18rem;">
+                    <img src="img/portateis.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Portáteis</h5>
+                    </div>
+                </div>
+
+                <!-- CLIMATIZACAO -->
+                <div class="card" style="width: 18rem;">
+                    <img src="img/climatizacao.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Climatização</h5>
+                    </div>
+                </div>
+
+                <!-- ESPORTE E LAZER -->
+                <div class="card" style="width: 18rem;">
+                    <img src="img/esporte_lazer.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Esporte e Lazer</h5>
+                    </div>
+                </div>
+            </section>
+
+
+
+            <section id="produtos">
+                <h2>Nossos produtos</h2>
+                <table>
+                    <tr>
+                        <th>Nome </th>
+                        <th>Valor </th>
+                        <th>Foto </th>
+                    </tr>
+                    <tr>
+                        <td>Guarda Roupa</td>
+                        <td>R$999,90</td>
+                        <td><img src="https://mediacdn.simonetti.com.br/media/catalog/product/cache/f777e0fcb693fc2eda14df7367849c5a/8/4/84420_1.jpg"
+                                alt="Imagem: Guarda-Roupa"></td>
+                    </tr>
+                    <tr>
+                        <td>Sófa</td>
+                        <td>R$1999,00</td>
+                        <td><img src="https://mediacdn.simonetti.com.br/media/catalog/product/cache/f777e0fcb693fc2eda14df7367849c5a/8/7/87636.jpg"
+                                alt="Imagem: Sofá"></td>
+                    </tr>
+                    <tr>
+                        <td>Geladeira</td>
+                        <td>R$3.899,00</td>
+                        <td><img src="https://mediacdn.simonetti.com.br/media/catalog/product/cache/f777e0fcb693fc2eda14df7367849c5a/8/8/88289_1.jpg"
+                                alt="Imagem: Geladeira"></td>
+                    </tr>
+                </table>
+            </section>
+
+            <section id="contato">
+                <h1>Fale Conosco</h1>
+                <form action="login.php">
+                    <label for="inome">Nome:</label>
+                    <br>
+                    <input type="text" name="nome" id="inome" required>
+                    <br>
+                    <label for="iemail">Email:</label>
+                    <br>
+                    <input type="email" name="email" id="iemail" required>
+                    <br>
+                    <label for="iassunto">Assunto:</label>
+                    <br>
+                    <input type="text" name="assunto" id="iassunto" required>
+                    <br>
+                    <label for="imenssagem">Mensagem:</label>
+                    <br>
+                    <textarea name="mensagem" id="imensagem" rows="5" cols="50"></textarea>
+                    <br>
+                    <button type="submit">Enviar</button>
+                </form>
+            </section>
+        </main>
+
+        <footer>
+            <h2>Redes sociais</h2>
+            <ul>
+                <li><a href="www.instagram.com/jp.pardinho/#" target="_blank">Instagram</a></li>
+                <li><a href="www.linkedin.com/in/jppardinho" target="_blank">Linkedin</a></li>
+                <li><a href="https://github.com/JP-Pardinho" target="_blank">GitHub</a></li>
+            </ul>
+
+            <p>Site criado por <a href="https://github.com/JP-Pardinho" target="_blank">JP-Pardinho</a> para o curso
+                MS-Code.</p>
+            <p>©2025 Loja do Pardin. Todos os direitos reservados.</p>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+            crossorigin="anonymous"></script>
+    </body>
+
+    </html>
+</body>
+
+</html>

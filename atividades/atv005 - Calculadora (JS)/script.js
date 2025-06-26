@@ -22,13 +22,6 @@ function backCE(){
 
 function calcular(){
     let resultado = document.getElementById('res').innerHTML;
-    
-    if (resultado.includes('%')){
-        const res1 = resultado.split('%');
-        console.log(res1);
-        
-        return;
-    }
 
     document.getElementById('res').innerHTML = eval(resultado); 
 }
