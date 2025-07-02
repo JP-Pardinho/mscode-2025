@@ -1,0 +1,31 @@
+:root {
+    --azul-escuro: #001694;
+    --azul-footer: #000c50;
+}
+
+.bg-azul-escuro {
+    background-color: var(--azul-escuro);
+}
+
+.bg-azul-footer {
+    background-color: var(--azul-footer);
+}
+
+.btn-amarelo {
+    background-color: #fff7bf;
+    color: #004cc7;
+    border-color: #001694;
+}
+
+.btn-amarelo:hover {
+    background-color: #c2bc92;
+    border-color: #c2bc92;
+    color: #004cc7;
+}
+
+.btn-amarelo:focus,
+.btn-amarelo:active {
+    background-color: #969171 !important;
+    border-color: #c2bc92 !important;
+    box-shadow: 0 0 0 0.25rem #fff8bf7c !important;
+}

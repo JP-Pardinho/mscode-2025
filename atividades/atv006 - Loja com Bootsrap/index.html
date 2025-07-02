@@ -4,110 +4,105 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Loja com bootsrap</title>
+    <title>Lojinha do Pardin</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <!DOCTYPE html>
-    <html lang="pt-BR">
+    <header>
+        <!-- NAVBAR -->
+        <nav class="navbar navbar-expand-lg bs-primary-text-emphasis bg-azul-escuro navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Loja do Pardin</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#inicio">Incio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#categorias">Categorias</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Produtos
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Móveis</a></li>
+                                <li><a class="dropdown-item" href="#">Colchões</a></li>
+                                <li><a class="dropdown-item" href="#">Eletrodomésticos</a></li>
+                                <li><a class="dropdown-item" href="#">Telefonia</a></li>
+                                <li><a class="dropdown-item" href="#">Portáteis</a></li>
+                                <li><a class="dropdown-item" href="#">Climatização</a></li>
+                                <li><a class="dropdown-item" href="#">Esporte e Lazer</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Todos os produtos</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contato">Contato</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Buscar na loja"
+                            aria-label="Search" />
+                        <button class="btn btn-amarelo" type="submit"><i class="bi bi-search"></i></button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Lojinha do Pardin</title>
-        <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
-            integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
-    </head>
 
-    <body>
-        <header>
-            <!-- NAVBAR -->
-            <nav class="navbar navbar-expand-lg bg-body-tertiary">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="#">Loja do Pardin</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#inicio">Incio</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#categorias">Categorias</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false">
-                                    Produtos
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Móveis</a></li>
-                                    <li><a class="dropdown-item" href="#">Colchões</a></li>
-                                    <li><a class="dropdown-item" href="#">Eletrodomésticos</a></li>
-                                    <li><a class="dropdown-item" href="#">Telefonia</a></li>
-                                    <li><a class="dropdown-item" href="#">Portáteis</a></li>
-                                    <li><a class="dropdown-item" href="#">Climatização</a></li>
-                                    <li><a class="dropdown-item" href="#">Esporte e Lazer</a></li>
-                                    <li>
-                                        <hr class="dropdown-divider">
-                                    </li>
-                                    <li><a class="dropdown-item" href="#">Todos os produtos</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#contato">Contato</a>
-                            </li>
-                        </ul>
-                        <form class="d-flex" role="search">
-                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-                            <button class="btn btn-outline-success" type="submit">Search</button>
-                        </form>
+    <main>
+        <section id="inicio">
+            <div id="carousel" class="carousel slide bg-azul-escuro" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <a
+                            href="https://api.whatsapp.com/send?phone=55DDD...&text=Olá!%0AQuero%20falar%20com%20um%20vendedor!">
+                            <img src="img/banner1.png" class="d-block w-100" alt="banner">
+                        </a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#contato">
+                            <img src="img/banner2.png" class="d-block w-100" alt="...">
+                        </a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#moveis">
+                            <img src="img/banner3.png" class=" d-block w-100" alt="...">
+                        </a>
                     </div>
                 </div>
-            </nav>
-        </header>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
 
-
-        <main class="primary-color">
-            <section id="inicio">
-                <!-- <h1>Seja bem-vindo, sua compra é a nossa alegria!</h1>  ENCONTRAR ALGO PARA SUBSTITUIR-->
-
-                <!-- CARROSSEL  -->
-                <div id="carouselExample" class="carousel slide">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="img/banner.png" class="d-block w-100" alt="Banner-Whatsapp">
-                        </div>
-                        <div class="carousel-item">
-                            <!-- MUDAR IMG DEPOIS -->
-                            <img src="https://placehold.co/1300x350" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item">
-                            <!-- MUDAR IMG DEPOIS -->
-                            <img src="https://placehold.co/1300x350" class="d-block w-100" alt="...">
-                        </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
-                        data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
-                        data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
-                </div>
-            </section>
-
-            <!-- Lista de categorias -->
-            <section id="categorias" class="row gap-2 mt-5 justify-content-md-center">
+        <!-- Lista de categorias -->
+        <section id="categorias" class="container mt-5">
+            <h1 class="text-center mt-5 mb-5">Todas as Categorias</h1>
+            <div class="row gap-3 justify-content-center">
                 <!-- MOVÉIS -->
-                <div class="card" style="width: 18rem;">
+                <div class="card text-center" style="width: 18rem;">
                     <img src="img/moveis.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title ">Móveis</h5>
@@ -115,15 +110,15 @@
                 </div>
 
                 <!-- COLCHOES -->
-                <div class="card" style="width: 18rem;">
-                    <img src="img/climatizacao.png" class="card-img-top" alt="...">
+                <div class="card text-center" style="width: 18rem;">
+                    <img src="img/colchoes.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Colchões</h5>
                     </div>
                 </div>
 
                 <!-- ELETRODOMESTICOS -->
-                <div class="card" style="width: 18rem;">
+                <div class="card text-center" style="width: 18rem;">
                     <img src="img/eletrodomesticos.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Eletrodomésticos</h5>
@@ -131,7 +126,7 @@
                 </div>
 
                 <!-- TELEFONIA -->
-                <div class="card" style="width: 18rem;">
+                <div class="card text-center" style="width: 18rem;">
                     <img src="img/telefonia.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Telefonia</h5>
@@ -139,7 +134,7 @@
                 </div>
 
                 <!-- PORTATEIS -->
-                <div class="card" style="width: 18rem;">
+                <div class="card text-center" style="width: 18rem;">
                     <img src="img/portateis.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Portáteis</h5>
@@ -147,7 +142,7 @@
                 </div>
 
                 <!-- CLIMATIZACAO -->
-                <div class="card" style="width: 18rem;">
+                <div class="card text-center" style="width: 18rem;">
                     <img src="img/climatizacao.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Climatização</h5>
@@ -155,87 +150,164 @@
                 </div>
 
                 <!-- ESPORTE E LAZER -->
-                <div class="card" style="width: 18rem;">
+                <div class="card text-center" style="width: 18rem;">
                     <img src="img/esporte_lazer.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Esporte e Lazer</h5>
                     </div>
                 </div>
-            </section>
 
+            </div>
+        </section>
 
+        <!-- Carrossel Informações -->
+        <section id="informacao" class="container mt-5 mb-2">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/infor1.png" class="w-100 d-block" alt="Informações1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/infor2.png" class="w-100 d-block" alt="Informações2">
+                    </div>
+                </div>
+            </div>
+        </section>
 
-            <section id="produtos">
-                <h2>Nossos produtos</h2>
-                <table>
-                    <tr>
-                        <th>Nome </th>
-                        <th>Valor </th>
-                        <th>Foto </th>
-                    </tr>
-                    <tr>
-                        <td>Guarda Roupa</td>
-                        <td>R$999,90</td>
-                        <td><img src="https://mediacdn.simonetti.com.br/media/catalog/product/cache/f777e0fcb693fc2eda14df7367849c5a/8/4/84420_1.jpg"
-                                alt="Imagem: Guarda-Roupa"></td>
-                    </tr>
-                    <tr>
-                        <td>Sófa</td>
-                        <td>R$1999,00</td>
-                        <td><img src="https://mediacdn.simonetti.com.br/media/catalog/product/cache/f777e0fcb693fc2eda14df7367849c5a/8/7/87636.jpg"
-                                alt="Imagem: Sofá"></td>
-                    </tr>
-                    <tr>
-                        <td>Geladeira</td>
-                        <td>R$3.899,00</td>
-                        <td><img src="https://mediacdn.simonetti.com.br/media/catalog/product/cache/f777e0fcb693fc2eda14df7367849c5a/8/8/88289_1.jpg"
-                                alt="Imagem: Geladeira"></td>
-                    </tr>
-                </table>
-            </section>
+        <!-- NOSSOS PRUDUTOS -->
+        <section id="moveis" class="container mt-5">
+            <h1 id="moveis" class="text-center mb-5">Oferta em Móveis</h1>
+            <div class="row gap-3 justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://mediacdn.simonetti.com.br/media/catalog/product/cache/f777e0fcb693fc2eda14df7367849c5a/8/8/88542.jpg"
+                        class="card-img-top" alt="Guarda-Roupas">
+                    <div class="card-body row">
+                        <h5 class="card-title">Guarda Roupa Casal Master 270 6 Portas</h5>
+                        <h5 class="card-text mt-1">R$2.199,00</h5>
+                        <p class="card-text">ou em até 10x de 219,90 no cartão</p>
+                        <a href="#" class="btn btn-primary">
+                            <i class="bi bi-cart-plus"></i>
+                            Comprar
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-            <section id="contato">
-                <h1>Fale Conosco</h1>
-                <form action="login.php">
-                    <label for="inome">Nome:</label>
-                    <br>
-                    <input type="text" name="nome" id="inome" required>
-                    <br>
-                    <label for="iemail">Email:</label>
-                    <br>
-                    <input type="email" name="email" id="iemail" required>
-                    <br>
-                    <label for="iassunto">Assunto:</label>
-                    <br>
-                    <input type="text" name="assunto" id="iassunto" required>
-                    <br>
-                    <label for="imenssagem">Mensagem:</label>
-                    <br>
-                    <textarea name="mensagem" id="imensagem" rows="5" cols="50"></textarea>
-                    <br>
-                    <button type="submit">Enviar</button>
-                </form>
-            </section>
-        </main>
+        <section id="app" class="container mt-5 mb-2">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/app.png" class="w-100 d-block" alt="Informações1">
+                    </div>
+                </div>
+            </div>
+        </section>
 
-        <footer>
-            <h2>Redes sociais</h2>
-            <ul>
-                <li><a href="www.instagram.com/jp.pardinho/#" target="_blank">Instagram</a></li>
-                <li><a href="www.linkedin.com/in/jppardinho" target="_blank">Linkedin</a></li>
-                <li><a href="https://github.com/JP-Pardinho" target="_blank">GitHub</a></li>
-            </ul>
+        <section id="produtos" class="container mt-5">
+            <h1 class="text-center mt-5 mb-5">Ofertas Exclusivas pra você!</h1>
+            <div class="row gap-3 justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://mediacdn.simonetti.com.br/media/catalog/product/cache/f777e0fcb693fc2eda14df7367849c5a/8/9/89716.jpg"
+                        class="card-img-top" alt="Sófa retrátil">
+                    <div class="card-body row">
+                        <h5 class="card-title">Sofá Retrátil e Reclinável Alaska | Best House</h5>
+                        <h5 class="card-text mt-1">R$1.399,00</h5>
+                        <p class="card-text">ou em até 10x de 139,90 no cartão</p>
+                        <a href="#" class="btn btn-primary">
+                            <i class="bi bi-cart-plus"></i>
+                            Comprar
+                        </a>
+                    </div>
+                </div>
 
-            <p>Site criado por <a href="https://github.com/JP-Pardinho" target="_blank">JP-Pardinho</a> para o curso
-                MS-Code.</p>
-            <p>©2025 Loja do Pardin. Todos os direitos reservados.</p>
-        </footer>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
-            crossorigin="anonymous"></script>
-    </body>
+                <div class="card" style="width: 18rem;">
+                    <img src="https://mediacdn.simonetti.com.br/media/catalog/product/cache/f777e0fcb693fc2eda14df7367849c5a/8/9/89434_1.jpg"
+                        class="card-img-top" alt="Geladeira 2 portas">
+                    <div class="card-body row">
+                        <h5 class="card-title">Geladeira Inverse 416L Inox Midea Frost Free</h5>
+                        <h5 class="card-text mt-1">R$4.499,00</h5>
+                        <p class="card-text">ou em até 10x de 449,90 no cartão</p>
+                        <a href="#" class="btn btn-primary">
+                            <i class="bi bi-cart-plus"></i>
+                            Comprar
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-    </html>
+        <section id="contato" class="row mt-5 container mx-auto justify-content-md-center">
+            <!-- Fale conosco -->
+            <h2>Fale conosco</h2>
+            <form action="login.php">
+                <div class="mb-3">
+                    <label for="nome" class="form-label">Nome:</label>
+                    <input type="text" class="form-control" id="nome" placeholder="Digite seu nome completo">
+                </div>
+
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email:</label>
+                    <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                </div>
+
+                <div class="mb-3">
+                    <label for="assunto" class="form-label">Assunto:</label>
+                    <input type="text" class="form-control" id="assunto" placeholder="Digite o assunto">
+                </div>
+
+                <div class="mb-3">
+                    <label for="mensagem" class="form-label">Mensagem:</label>
+                    <textarea class="form-control" id="mensagem" rows="3"></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-amarelo">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="bg-azul-footer text-white py-4 mt-5 text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-mb-4 mb-3">
+                    <h2>Redes sociais</h2>
+                </div>
+
+                <div class="col-mb-4 mb-3">
+                    <ul class="list-unstyled row w-25 mx-auto">
+                        <li class="col-4">
+                            <a class=" icon-link" href="#">
+                                <i class="bi bi-github"></i>
+                                GitHub
+                            </a>
+                        </li>
+
+                        <li class="col-4">
+                            <a class="icon-link" href="www.instagram.com/jp.pardinho/#" target="_blank">
+                                <i class="bi bi-instagram"></i>
+                                Instagram
+                            </a>
+                        </li>
+
+                        <li class="col-4">
+                            <a class="icon-link" href="#">
+                                <i class="bi bi-linkedin"></i>
+                                Linkedin
+                            </a>
+                        </li>
+                    </ul>
+
+                    <p>Site criado por <a href="https://github.com/JP-Pardinho" target="_blank">JP-Pardinho</a> para o
+                        curso MS-Code.</p>
+                    <p>©2025 Loja do Pardin. Todos os direitos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
