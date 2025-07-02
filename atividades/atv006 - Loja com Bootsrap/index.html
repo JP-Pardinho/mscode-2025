@@ -161,14 +161,14 @@
         </section>
 
         <!-- Carrossel Informações -->
-        <section id="informacao" class="container mt-5 mb-2">
+        <section id="informacao" class="container-fluid mt-5 mb-2">
             <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="img/infor1.png" class="w-100 d-block" alt="Informações1">
+                        <img src="img/infor1.png" class="d-block w-100" alt="infor1">
                     </div>
                     <div class="carousel-item">
-                        <img src="img/infor2.png" class="w-100 d-block" alt="Informações2">
+                        <img src="img/infor2.png" class="d-block w-100" alt="infor2">
                     </div>
                 </div>
             </div>
@@ -177,17 +177,17 @@
         <!-- Ofertas Móveis -->
         <section id="moveis" class="container mt-5 text-center ">
             <h1 id="moveis" class="mb-5">Oferta em Móveis</h1>
-            <div class="row gap-3 justify-content-center">
+            <div class="row gap-3 justify-content-center row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4">
 
                 <div class="card" style="width: 18rem;">
                     <img src="https://mediacdn.simonetti.com.br/media/catalog/product/cache/f777e0fcb693fc2eda14df7367849c5a/8/8/88542.jpg"
                         class="card-img-top" alt="Guarda-Roupas">
-                    <div class="card-body row">
+                    <div class="card-body">
                         <h5 class="card-title">Guarda Roupa Casal Master 270 6 Portas</h5>
-                        <h6 class="card-text">R$2.590,00</h6>
+                        <h6 class="card-text"><span>R$2.590,00</span></h6>
                         <h5 class="card-text mt-1">R$2.199,00</h5>
                         <p class="card-text">ou em até 10x de R$ 219,90 no cartão</p>
-                        <a href="#" class="btn btn-primary">
+                        <a href="#" class="btn btn-primary mt-2 w-100">
                             <i class="bi bi-cart-plus"></i>
                             Comprar
                         </a>
@@ -197,11 +197,12 @@
                 <div class="card" style="width: 18rem;">
                     <img src="https://mediacdn.simonetti.com.br/media/catalog/product/cache/f777e0fcb693fc2eda14df7367849c5a/8/9/89767_1.jpg"
                         class="card-img-top" alt="Mesa de Jantar">
-                    <div class="card-body row">
+                    <div class="card-body">
                         <h5 class="card-title">Mesa de Jantar Apogeu 4 Cadeiras e Tampo com Vidro - Lopas</h5>
+                        <h6 class="card-text"><span>R$1.990,00</span></h6>
                         <h5 class="card-text mt-1">R$1.649,00</h5>
                         <p class="card-text">ou em até 10x de R$ 169,90 no cartão</p>
-                        <a href="#" class="btn btn-primary">
+                        <a href="#" class="btn btn-primary mt-2 w-100">
                             <i class="bi bi-cart-plus"></i>
                             Comprar
                         </a>
@@ -211,11 +212,12 @@
                 <div class="card" style="width: 18rem;">
                     <img src="https://mediacdn.simonetti.com.br/media/catalog/product/cache/f777e0fcb693fc2eda14df7367849c5a/8/7/87066_1.jpg"
                         class="card-img-top" alt="Rack para TV">
-                    <div class="card-body row">
+                    <div class="card-body">
                         <h5 class="card-title">Rack/Bancada com Painel Mondrian 180cm para TVs de até 65 | Caemmum</h5>
+                        <h6 class="card-text"><span>R$949,00</span></h6>
                         <h5 class="card-text mt-1">R$719,00</h5>
                         <p class="card-text">ou em até 10x de R$ 71,90 no cartão</p>
-                        <a href="#" class="btn btn-primary">
+                        <a href="#" class="btn btn-primary mt-2 w-100">
                             <i class="bi bi-cart-plus"></i>
                             Comprar
                         </a>
@@ -225,11 +227,12 @@
                 <div class="card" style="width: 18rem;">
                     <img src="https://mediacdn.simonetti.com.br/media/catalog/product/cache/f777e0fcb693fc2eda14df7367849c5a/8/7/87585.jpg"
                         alt="Painel para TV" class="card-img-top" alt="Armario para cozinha">
-                    <div class="card-body row">
+                    <div class="card-body">
                         <h5 class="card-title">Cozinha Esplêndida 2 módulos, 100% MDF | MGM Móveis</h5>
+                        <h6 class="card-text"><span>R$1.299,00</span></h6>
                         <h5 class="card-text mt-1">R$989,00</h5>
                         <p class="card-text">ou em até 10x de R$ 98,90 no cartão</p>
-                        <a href="#" class="btn btn-primary">
+                        <a href="#" class="btn btn-primary mt-2 w-100">
                             <i class="bi bi-cart-plus"></i>
                             Comprar
                         </a>
@@ -240,27 +243,21 @@
 
         <!-- Banner (Baixe o APP) -->
         <section id="app" class="container mt-5 mb-2">
-            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="img/app.png" class="w-100 d-block" alt="Informações1">
-                    </div>
-                </div>
-            </div>
+            <img src="img/app.png" class="w-100 d-block" alt="Informações1">
         </section>
 
         <!-- Produtos Diversos -->
         <section id="produtos" class="container mt-5 text-center">
-            <h1 class="mt-5 mb-5">Ofertas Exclusivas pra você!</h1>
-            <div class="row gap-3 justify-content-center">
+            <h1 class="mt-5 mb-5">Ofertas exclusivas pra você!</h1>
+            <div class="row gap-3 justify-content-center row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4">
                 <div class="card" style="width: 18rem;">
                     <img src="https://mediacdn.simonetti.com.br/media/catalog/product/cache/f777e0fcb693fc2eda14df7367849c5a/8/9/89716.jpg"
                         class="card-img-top" alt="Sófa retrátil">
-                    <div class="card-body row">
+                    <div class="card-body">
                         <h5 class="card-title">Sofá Retrátil e Reclinável Alaska | Best House</h5>
                         <h5 class="card-text mt-1">R$1.399,00</h5>
                         <p class="card-text">ou em até 10x de R$ 139,90 no cartão</p>
-                        <a href="#" class="btn btn-primary">
+                        <a href="#" class="btn btn-primary mt-2 w-100">
                             <i class="bi bi-cart-plus"></i>
                             Comprar
                         </a>
@@ -270,11 +267,11 @@
                 <div class="card" style="width: 18rem;">
                     <img src="https://mediacdn.simonetti.com.br/media/catalog/product/cache/f777e0fcb693fc2eda14df7367849c5a/8/9/89434_1.jpg"
                         class="card-img-top" alt="Geladeira 2 portas">
-                    <div class="card-body row">
+                    <div class="card-body">
                         <h5 class="card-title">Geladeira Inverse 416L Inox Midea Frost Free</h5>
                         <h5 class="card-text mt-1">R$4.499,00</h5>
                         <p class="card-text">ou em até 10x de R$ 449,90 no cartão</p>
-                        <a href="#" class="btn btn-primary">
+                        <a href="#" class="btn btn-primary mt-2 w-100">
                             <i class="bi bi-cart-plus"></i>
                             Comprar
                         </a>
@@ -284,12 +281,12 @@
                 <div class="card" style="width: 18rem;">
                     <img src="https://mediacdn.simonetti.com.br/media/catalog/product/cache/f777e0fcb693fc2eda14df7367849c5a/8/5/85563.jpg"
                         class="card-img-top" alt="iPhone 16 Plus">
-                    <div class="card-body row">
+                    <div class="card-body">
                         <h5 class="card-title">Apple Iphone 16 Plus 256GB iOS18 5G - Tela 6.7", Super Retina XDR, HDR,
                             Câmera Dupla Traseira</h5>
                         <h5 class="card-text mt-1">R$8.199,00</h5>
                         <p class="card-text">ou em até 10x de R$ 819,90 no cartão</p>
-                        <a href="#" class="btn btn-primary">
+                        <a href="#" class="btn btn-primary mt-2 w-100">
                             <i class="bi bi-cart-plus"></i>
                             Comprar
                         </a>
@@ -299,12 +296,12 @@
                 <div class="card" style="width: 18rem;">
                     <img src="https://mediacdn.simonetti.com.br/media/catalog/product/cache/f777e0fcb693fc2eda14df7367849c5a/8/9/89261_1.jpg"
                         class="card-img-top" alt="Geladeira 2 portas">
-                    <div class="card-body row">
+                    <div class="card-body">
                         <h5 class="card-title">Notebook 15,6" Core i3 E1504GA 4GB 256GB SSD Full HD Windows 11 - Asus
                         </h5>
                         <h5 class="card-text mt-1">R$2.849,00</h5>
                         <p class="card-text">ou em até 10x de R$ 284,90 no cartão</p>
-                        <a href="#" class="btn btn-primary">
+                        <a href="#" class="btn btn-primary mt-2 w-100">
                             <i class="bi bi-cart-plus"></i>
                             Comprar
                         </a>
@@ -342,45 +339,44 @@
         </section>
     </main>
 
-    <footer class="bg-azul-footer text-white py-4 mt-5 text-center">
+    <footer class="bg-azul-footer text-white py-4 mt-5">
         <div class="container">
-            <div class="row">
-                <div class="col-mb-4 mb-3">
+            <div class="row text-center">
+                <!-- Redes Sociais -->
+                <div class="col-12 mb-3">
                     <h2>Redes sociais</h2>
-                </div>
-
-                <div class="col-mb-4 mb-3">
-                    <ul class="list-unstyled row w-25 mx-auto">
-                        <li class="col-4">
-                            <a class=" icon-link" href="#">
-                                <i class="bi bi-github"></i>
-                                GitHub
+                    <ul class="list-inline d-flex justify-content-center gap-4">
+                        <li class="list-inline-item">
+                            <a class="text-white text-decoration-none" href="#">
+                                <i class="bi bi-github fs-4"></i>
+                                <span class="d-none d-sm-inline">GitHub</span>
                             </a>
                         </li>
-
-                        <li class="col-4">
-                            <a class="icon-link" href="www.instagram.com/jp.pardinho/#" target="_blank">
-                                <i class="bi bi-instagram"></i>
-                                Instagram
+                        <li class="list-inline-item">
+                            <a class="text-white text-decoration-none" href="www.instagram.com/jp.pardinho/#"
+                                target="_blank">
+                                <i class="bi bi-instagram fs-4"></i>
+                                <span class="d-none d-sm-inline">Instagram</span>
                             </a>
                         </li>
-
-                        <li class="col-4">
-                            <a class="icon-link" href="#">
-                                <i class="bi bi-linkedin"></i>
-                                Linkedin
+                        <li class="list-inline-item">
+                            <a class="text-white text-decoration-none" href="#">
+                                <i class="bi bi-linkedin fs-4"></i>
+                                <span class="d-none d-sm-inline">LinkedIn</span>
                             </a>
                         </li>
                     </ul>
+                </div>
 
-                    <p>Site criado por <a href="https://github.com/JP-Pardinho" target="_blank">JP-Pardinho</a> para o
-                        curso MS-Code.</p>
+                <!-- Informações -->
+                <div class="col-12">
+                    <p>Site criado por <a href="https://github.com/JP-Pardinho" target="_blank"
+                            class="text-white">JP-Pardinho</a> para o curso MS-Code.</p>
                     <p>©2025 Loja do Pardin. Todos os direitos reservados.</p>
                 </div>
             </div>
         </div>
     </footer>
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
         crossorigin="anonymous"></script>
