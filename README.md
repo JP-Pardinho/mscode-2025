@@ -9,7 +9,7 @@
 ### Projetos legais do curso: 
 - Atividade 004: [Loja com CSS](https://jp-pardinho.github.io/mscode-2025/atividades/atv004%20-%20Loja%20com%20CSS/)
 - Atividade 005: [Calculadora com JavaScript](https://jp-pardinho.github.io/mscode-2025/atividades/atv005%20-%20Calculadora%20(JS)/)
-- Atividade 006: [Loja com Bootstrap](https://jp-pardinho.github.io/mscode-2025/atividades/atv006%20-%20Loja%20com%20Bootstrap/#moveis)
+- Atividade 006: [Loja com Bootstrap](https://jp-pardinho.github.io/mscode-2025/atividades/atv006%20-%20Loja%20com%20Bootstrap/)
 
 ### Anotações da aula de git (Comandos):
 
