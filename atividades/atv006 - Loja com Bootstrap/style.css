@@ -80,3 +80,7 @@
     font-size: 1.1rem;
     text-align: center;
 }
+
+#categorias .card {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
