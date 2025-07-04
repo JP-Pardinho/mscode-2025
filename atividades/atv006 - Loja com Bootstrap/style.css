@@ -11,26 +11,6 @@
     background-color: var(--azul-footer);
 }
 
-.btn-amarelo {
-    background-color: #fff7bf;
-    color: #004cc7;
-    border-color: #001694;
-}
-
-.btn-amarelo:hover {
-    background-color: #c2bc92;
-    border-color: #c2bc92;
-    color: #000c50;
-}
-
-.btn-amarelo:focus,
-.btn-amarelo:active {
-    color: #000c50 !important;
-    background-color: #969171 !important;
-    border-color: #c2bc92 !important;
-    box-shadow: 0 0 0 0.25rem #fff8bf7c !important;
-}
-
 .card-body {
     min-height: 220px;
     display: flex;
